@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>page</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#work">WORK IN PROGRESS</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <a name="work">WORK IN PROGESS</a>
+
+  <div>
+    <p><b>Gender inequalities: Women researchers require more knowledge in specific and experimental topics</b></p>
+    <p>Gender inequalities in science have long been observed globally. Studies have demonstrated it through survey data or published literature, focusing on the interests of subjects or authors; few, however, examined the manifestation of gender inequalities on researchers’ knowledge status. This study analyzes the relationship between regional and gender identities, topics, and knowledge status while revealing the female labor division in science and scientific research using online Q&A from researchers. We find that gender inequalities are merged with both regional-specific characteristics and global common patterns. Women’s field and topic distribution within fields are influenced by regions, yet the prevalent topics are consistent in all regions. Women are more involved in specific topics, particularly topics about experiments with weaker levels of knowledge and they are of less assistance. To promote inequality in science, the scientific community should pay more attention to reducing the knowledge gap and encourage women to work on unexplored topics and areas. </p>
+  </div>
+
+  <table width="100%" border="0">
+    <tr>
+      <td align="center"><img src="data\fig1.png"/> </td>
+      <td align="center"><img src="data\fig2 question.png"/></td>
+    </tr>
+    <tr>
+      <td align="center"><font size=2pm><b>Fig. 1.</b> Distribution of region and gender of researchers in question by field. The average number of questions and answers per researcher in each region and gender group. The average proportion of researchers in five fields normalized by region and gender group.</td>
+      <td align="center"><font size=2pm><b>Fig. 2.</b> The relationship between region and gender participation in question. The vertical axis shows the proportion of women, while the horizontal axis shows the regional proportion of researchers in each topic. To show the relationship clearer, topic points are omitted in the figure. The blue line shows the result of linear regression, together with the p-value in the upper left and the regression equation in the bottom.</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="data\fig3.png"/> </td>
+      <td align="center"><img src="data\fig4.png"/></td>
+    </tr>
+    <tr>
+      <td align="center"><font size=2pm><b>Fig. 3.</b> Distribution of topic by region and gender participation in question. The vertical axis shows the proportion of women while the horizontal axis shows the region proportion in questioners of each topic. The color of the point shows the mean follow of a question on the topic. Two hundred fifty topics with the highest proportion are shown in the figure, and the top 20 topics are text-labeled. </td>
+      <td align="center"><font size=2pm><b>Fig. 4.</b> Overall characteristics and organization forms of the topic networks. Network graph of the two topics with their average clustering coefficient (A). For better visualization effects, individual points in the network are not shown. The whole network can be seen in the supplementary material(SI Appendix, Fig. S). Average in-degree and out-degree centrality of female and male nodes (B). Connection proportion between questioner and responder of low and high probability (C). The low/high probability is divided by the median.</td>
+    </tr>
+  </table>
+
+  <div>
+    <p><b>The impact of marriage on the output and career of women scholars</b></p>
+    <p>Marriage has potential impact on scholarship, especially for women, but lack of appropriate data has prevented its clear assessment. In this article we quantify the impact of marriage on women's scholarship using open data from ORCID(23057 married women scholars are recognized), including longitudinal productivity data and career path. So far we have find marriage have short term negative impact but long term active impact on productivity of women scholars and this impact varies according to the field they worked in. The short term negative impact is more significant if they get married after they are normally employed. We now continue working on other parts of this research, for instance, the impact of marriage on women scholar's career.</p>
+
+    <table width="100%" border="0">
+      <tr>
+        <td align="center"><img src="data\marriage.png"> </td>
+        <td align="center">
+          <table>
+            <caption>Result of Regression Discontinuity Design</caption>
+            <tbody>
+              <tr><th><b>field</b></th><th><b>publication</b></th><th><b>Coefficient</b></th></tr>
+              <tr><th>total</th><th>lwald</th><th>-0.053</th></tr>
+              <tr><th></th><th>lwald50</th><th>(omitted)</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.214***</th></tr>
+              <tr><th>Arts & Humanities</th><th>lwald</th><th>-0.520**</th></tr>
+              <tr><th></th><th>lwald50</th><th>(omitted)</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.305*</th></tr>
+              <tr><th>Life science & Biomedicine</th><th>lwald</th><th>-0.220**</th></tr>
+              <tr><th></th><th>lwald50</th><th>-0.064</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.231***</th></tr>
+              <tr><th>Physical Science</th><th>lwald</th><th>-0.265*</th></tr>
+              <tr><th></th><th>lwald50</th><th>0.074</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.133</th></tr>
+              <tr><th>Social science</th><th>lwald</th><th>-0.264*</th></tr>
+              <tr><th></th><th>lwald50</th><th>-0.112</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.240***</th></tr>
+              <tr><th>Technology</th><th>lwald</th><th>-0.057</th></tr>
+              <tr><th></th><th>lwald50</th><th>(omitted)</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.028</th></tr>
+              
+              <tr><th><b>period</b></th><th><b>publication</b></th><th><b>Coefficient</b></th></tr>
+              <tr><th>Education</th><th>lwald</th><th>-0.231</th></tr>
+              <tr><th></th><th>lwald50</th><th>-0.003</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.100*</th></tr>
+              <tr><th>Employment</th><th>lwald</th><th>-0.240***</th></tr>
+              <tr><th></th><th>lwald50</th><th>-0.057</th></tr>
+              <tr><th></th><th>lwald200</th><th>-0.229***</th></tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><font size=2pm><b>Fig. </b> Cumulative number of publications married women and random selected women over their careers. Average cumulative number of publications relative to first publication and productivity gaps for (<b>A</b>) scholar in all field(Nm = 14250, Nr = 12989), (<b>B</b>) scholar in Art & Humanities(Nm = 776, Nr = 521), (<b>C</b>) scholar in Life Sciences & Biomedicine(Nm = 5895, Nr = 6031), (<b>D</b>) scholar in Physical Sciences(Nm = 2141,Nr = 1587), (<b>E</b>) scholar in Social Sciences(Nm = 2673, Nr = 2093), (<b>F</b>) scholar in Technology(Nm = 2082, Nr = 1044).</td>
+        <td align="center"><font size=2pm><b>Table.</b> Impact of marriage on annual publications. Lwald, lwald50, and lwald200 represents results in optimal estimating bandwidth, half of optimal estimating bandwidth, and double of optimal estimating bandwidth. </td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div>
+    <p><b>Global scientific knowledge flow: Free circulated or blocked by borders?</b></p>
+    <p>A contemporary imaginary that foresees the eventual elimination of national borders altogether by a relentless process of globalization, anticipated methodologically by decoupling the global from the national. The modern scientific inquiry seems to many to be "the closest thing to a perfectly globalized system that we possess," a system in which it is easy to assume that "knowledge simply travels by itself across borders." But is that true?</p>
+    <p>Rather than thinking about transnational and global flows in terms that tend to presume the (relative) openness of the world, we need to excavate the structured networks and webs through which interconnections are made and maintained. What's more, the flow of knowledge can reshape the relationship between the nodes in the network and reconfigure the local settings in which it was produced and used. And the local settings can also react on knowledge flow. So in this research we considered following questions:</p>
+    <p>(1) To build structured networks and to find out how knowledge flow through networks. </p>
+    <p>(2) Is scientific knowledge "a perfectly globalized system" and can simply travels by itself across borders? If not, what about the cross-border effect through knowledge flow?</p>
+    <p>(3) How knowledge flow is regulated, impeded or reshaped?What about the disjuncture and the working of local nation?</p>
+    <p>using data of citation, cooperation, and migration of scholars extracted from Microsoft Academic Knowledge Graph with more than 200 million publications and 8 billion triples. We try to build global knowledge distribution maps and global knowledge flow network maps. We try to reveal characteristics of global knowledge flow network(compared with same sized random network) and the change of network position matrix. Considering national factors like geographical distance, knowledge ability, R&D investment etc. We use Temporal Exponential Random Graph Model (TERGM) to figure out the constraint imposed by country border in different knowledge flow network and what factor matter in global knowledge flows in past years.</p>
+  </div>
+
+  <br></br>
+
+  <a name="cv">CV</a>
+    <div>
+      <p><b>Education</b></p>
+      Sun Yat-Sen University <div align="right">Guangzhou, CN</div>MA.Sc Information Management <div align="right">6/2024</div>Dalian University of technology <div align="right">Dalian, CN</div>B.Eng Software Engineering<div align="right">6/2021</div>
+
+      <p><b>Journal Publications</b></p>
+      <p>Jianhua Hou, Shiqi Tang(co-first author), Yang Zhang*, Haoyang Song. Does prior knowledge affect patent technology diffusion? A semantic-based patent citation contribution analysis. Journal of Informetrics, 2023. 17(2): p. 101393. <a href="https://doi.org/10.1016/j.joi.2023.101393">https://doi.org/10.1016/j.joi.2023.101393</a></p><p>Jianhua Hou, Shiqi Tang, Yang Zhang*. <a href="data\manuscript-revised.pdf">A novel technology life cycle analysis method based on LSTM and CRF</a>. Scientometrics. (minor revision submitted)</p>
+      <br>
+
+      <p><b>Conference</b></p>
+      <p>Xiucai Yang, Shiqi Tang, Haoyang Song, Jianhua Hou. <a href="data\c1.pdf">Pre-grant knowledge burst patent: Identification and evolutionary trajectory</a>. 18th Academic Annual Conference on Science and Technology Policy and Management in China. Sept.2022.</p>
+      <p>Xiucai Yang, Shiqi Tang, Jianhua Hou, Haoyang Song. <a href="data\c2.pdf">Research on the impact of patent agency on the patent substantive examination cycle.</a> 14th National Scientometrics & Science and Education Evaluation Seminar in China. Jun.2023.</p>
+      <p>Jianhua Hou, Xiucai Yang, Haoyang Song, Shiqi Tang. <a href="data\c3.pdf">Research on the identification and evolutionary trajectory of Pre-authorization Knowledge outburst patents</a>. Tianfu Forum on Scientometrics and Technology Evaluation in China. Sept.2022.</p>
+      <br>
+
+      <p><b>Projects</b></p>
+      <p>Research on the Innovation System and Application of Major Science and Technology Project Evaluation in Guangzhou Based on Scientific Big Data. Guangzhou Science and Technology Plan Project. Apr.2022. - Mar.2023.</p>
+      <p>Research on the Transfer Law of Basic Science Research Centers in the Guangdong-Hong Kong-Macao Greater Bay Area and its Application. Natural Science Foundation of Guangdong Province. Jan.2021. - Dec.2023.</p>
+      <br>
+
+      <p><b>Chapter</b></p>
+      <p>Shiqi Tang. ”<a href="data\chapter5.pdf">On the Ability of Scientific Knowledge Diffusion</a>,” in On the Diffusion of Scientific Knowledge edited by Jianhua Hou. Sun Yat-Sen University Press.</p>
+      <br>
+
+      <p><b>Copyright</b></p>
+      <p>Software for calculating the potential impact of technological achievements V1.0, Registration Number:2021SR1934293</p>
+      <br>
+
+      <p><b>Skills</b></p>
+      <p>Research Related Skills:Machine Learning, Natural Language Process, Network Analysis</p>
+      <p>Languages:Python, R, C/C++, SQL, SPASQL, Matlab, Java</p>
+      <p>Frameworks for Deep Learning:PyTorch, TensorFlow</p>
+      <p>Tools for Statistics:Stata, R</p>
+      <p>Tools for Visualization:Python, R</p>
+      <br>
+
+      <p><b>Awards</b></p>
+      <p>First-class Scholarship. 2022&2023.</p>
+
+
+    </div>
+
+</body>
+
+<style>
+
+  body{
+    margin: 30px;
+  }
+
+  img{
+    width: 500px;
+    height: "60%";
+  }
+
+  table{
+    border-collapse: separate; 
+    border-spacing: 50px 5px;  
+  }
+
+  table th,td{
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0;
+  }
+</style>
+
+</html>
